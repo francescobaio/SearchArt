@@ -1,0 +1,90 @@
+#main-content-section{
+    margin:0 7.55vw 5vh 7.55vw;
+    text-align:center;
+}
+
+
+.main-content-section-text p{
+    font-family:"cerebrisans-medium",sans-serif;
+    font-size:2.5rem;
+}
+
+
+.large-button{
+    margin-top: 50px;
+    display: inline-block;
+    position:relative;
+    border:2px solid black;
+}
+
+
+.large-button a{
+    font-size: 20px;
+    display: inline-block;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 32px;
+    padding: 24px 70px;
+    position: relative;
+    transition: all .25s ease-in-out .25s;
+}
+
+.large-button span{
+    position: relative;
+    z-index: 1;
+}
+
+.large-button a:after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 0;
+    height: 100%;
+    transition: all .60s ease-in-out .12s;
+    background-image: url("../images/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpeg");
+
+}
+
+
+.large-button a:hover:after{
+    width: 100%;
+}
+
+.large-button a:hover{
+    color:white;
+}
+
+.main-content-section-text{
+    font-weight: 300;
+}
+
+.highlighted-text{
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 4px;
+    color: #7da7d9;
+    font-weight: 600;
+}
+
+.highlighted-text:hover{
+    text-decoration: underline;
+}
+
+.underlined-text{
+    background-image: linear-gradient(0deg, black 100%, transparent 100%);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    font-weight: 400;
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    .other-description{
+        display: none;
+    }
+
+}

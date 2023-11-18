@@ -1,0 +1,50 @@
+#img-logo {
+    bottom: 16vh;
+}
+
+.header-right {
+    margin-bottom: 0;
+}
+
+
+.person-about-us {
+    width: 40%;
+    text-align: center;
+    margin: 5vh 0 10vh 0;
+}
+
+
+.person-about-us h2 {
+    color: black;
+    margin-block-start: 2rem;
+}
+
+.person-about-us img {
+    width: 70%;
+    max-width: 100%;
+    border-radius: 30%;
+}
+
+
+.content-about-us {
+    display: flex;
+    justify-content: center;
+}
+
+
+.social {
+    display: flex;
+    width: 35%;
+    margin: auto;
+}
+
+.social img {
+    max-width: 100%;
+    padding: 1vh;
+
+}
+
+
+.toggle-menu-text {
+    margin-top: 1.7rem;
+}

@@ -1,0 +1,319 @@
+p{
+    font-size: 1.1rem;
+}
+
+
+
+
+
+ul.cloud {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5rem;
+}
+
+ul.cloud a {
+    font-size: 1.5rem;
+    padding: 0.125rem 0.25rem;
+    text-decoration: none;
+    position: relative;
+}
+
+
+ul.cloud span{
+    font-size: 1.5rem;
+}
+
+
+ul.cloud a {
+    --size: 4;
+    font-size: calc(var(--size) * 0.25rem + 0.7rem);
+}
+
+ul.cloud a:focus {
+    outline: 1px dashed;
+}
+
+.labeling-content{
+    width: 40%;
+}
+
+
+ul.cloud a[data-weight="0"] { --size: 1; }
+ul.cloud a[data-weight="1"] { --size: 2; }
+ul.cloud a[data-weight="2"] { --size: 3; }
+ul.cloud a[data-weight="3"] { --size: 4; }
+ul.cloud a[data-weight="4"] { --size: 5; }
+ul.cloud a[data-weight="5"] { --size: 6; }
+ul.cloud a[data-weight="6"] { --size: 7; }
+ul.cloud a[data-weight="7"] { --size: 8; }
+ul.cloud a[data-weight="8"] { --size: 9; }
+
+ul.cloud li:nth-child(2n+1) a { color: #002f6c }
+ul.cloud li:nth-child(3n+1) a { color: #4f83cc}
+ul.cloud li:nth-child(4n+1) a { color: #01579b; }
+
+
+ul.cloud li:nth-child(2n+1) span { color: #002f6c }
+ul.cloud li:nth-child(3n+1) span { color: #4f83cc}
+ul.cloud li:nth-child(4n+1) span { color: #01579b; }
+
+ul.cloud li span{
+    color:black;
+}
+
+
+ul.cloud[data-show-value] a::after {
+    content: "";
+    font-size: 1rem;
+}
+
+
+
+
+ul.cloud a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    transform: translate(-50%, 0);
+    opacity: 0.15;
+    transition: width 0.25s;
+}
+
+ul.cloud a:focus::before,
+ul.cloud a:hover::before {
+    width: 100%;
+}
+
+.tagcloud-labeling-information{
+    margin-top: 2rem;
+    width: 40%;
+    margin-right: 3rem;
+}
+
+.tagcloud-labeling-information h2{
+   font-size: 3rem;
+}
+
+
+.tagcloud-labeling-information h6{
+    font-size: 1rem;
+}
+
+
+.upload-button-label{
+
+
+    position: relative;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 1.4rem;
+    background: linear-gradient(40deg, #afd8ff,#4c78a7);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+
+}
+
+
+.upload-button-label:hover{
+    background-color: white;
+}
+
+
+.information-hidden-icon{
+    position: absolute;
+    left: 32rem;
+    display: none;
+}
+
+
+
+
+.tagcloud-labeling-information{
+    margin-top: 2rem;
+    width: 100%;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+
+.tagcloud-labeling-information p{
+    display: inline-block;
+    margin-block-start: 0;
+}
+
+
+
+.more-info{
+    display: none;
+    background: aliceblue;
+    margin: 1rem 12rem;
+
+}
+
+
+
+.information-visible-icon{
+    position: absolute;
+    left: 32rem;
+    display: inline-block;
+}
+
+
+.labeling-content{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+
+@keyframes progress {
+    from{width: 3%;}
+    to {width: 97%}
+}
+
+.progress-bar{
+    width: 3%;
+    height: 100%;
+    background-color: #7da7d9;
+    TEXT-ALIGN: CENTER;
+    LINE-HEIGHT: 30PX;
+    COLOR: WHITE;
+    border-radius: 15px;
+    animation-name: progress;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+
+.progress-bar-border {
+    width: 26rem;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: none;
+
+}
+
+
+.labeling-content{
+    text-align: left;
+}
+
+
+.wrapper-main-content{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+
+.tagcloud-labeling-information h2{
+    font-size: 3rem;
+    display: inline-block;
+    background-color: aliceblue;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.tagcloud-labeling{
+    width: 70%;
+}
+
+#upload-button{
+    visibility:hidden;
+}
+
+.page-purpose{
+    width: 90%;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+}
+
+
+
+.container-file-icon{
+    position: relative;
+    margin-top:1rem;
+}
+
+.file-icon{
+    display: none;
+}
+
+
+div.container-file-icon p.other-file-name {
+    display: none;
+}
+
+.labeling-content p{
+    margin-bottom: 0;
+}
+
+#labelling-button-submit{
+    visibility: hidden;
+}
+
+
+.labelling-button{
+
+    position: relative;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 1.4rem;
+    background: darkgrey;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
+.wrapper-labeling-content div.tagcloud-form{
+    display: none;
+}
+
+.cloud{
+    margin-block-start:4em;
+    margin-block-end:4em;
+}
+
+#upload-button-form .upload-button-label{
+    width: 9rem;
+}
+
+.list-information{
+    display:none;
+}
+
+.list-information p{
+    display:inline-block;
+    float:left;
+    position:relative;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#progress-bar-information{
+    margin-block-start: 1rem;
+}

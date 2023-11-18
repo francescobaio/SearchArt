@@ -1,0 +1,84 @@
+.tagcloud{
+    text-align: center;
+}
+
+.tagcloud img{
+    width: 62vw;
+}
+
+.tagcloud-form{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tagcloud-form img{
+    width: 2.7vw;
+    margin-right: 1.2vw;
+}
+
+.container-form{
+    margin: 0 0 10rem 0;
+}
+
+
+#input-speech{
+    margin-right: 1.2vw;
+    padding: 1rem;
+    border-radius: 12rem;
+    width: 10rem;
+    border: 2px solid black;
+}
+
+
+.upload-button-label{
+    border-radius: 1.4rem;
+    background: linear-gradient(40deg, #afd8ff,#4c78a7);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#submitter1{
+    visibility: hidden;
+    width: 1rem;
+}
+#submitter2{
+    visibility: hidden;
+    width: 1rem;
+}
+
+
+#input-written-form{
+   display: flex;
+}
+#input-spoken-form{
+    display: flex;
+}
+
+
+.tagcloud-main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagcloud-labeling{
+    width: 80%;
+    margin-top:3rem;
+}
+
+.container-form{
+    margin-top: 3rem;
+}
+
+
