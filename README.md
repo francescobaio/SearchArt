@@ -18,6 +18,6 @@ Additionally, the application includes a testing feature with a pre-loaded set o
 SearchArt is designed not only as a tool for art enthusiasts and researchers but also as an educational platform demonstrating the practical application of neural networks in recognizing and classifying elements within visual art. It stands as an example of the potential of combining traditional web development with advanced machine learning techniques to create novel and engaging user experiences.
 
 ## Project Presentation
-For a detailed overview of the project, please refer to the project presentation available in this repository: [Presentation PDF](https://github.com/francescobaio/SearchArt/blob/master/Presentazione%20SearchArt.pdf)
+For a detailed overview of the project, please refer to the project presentation available in this repository: [Presentation PDF](https://github.com/francescobaio/SearchArt/Presentazione-SearchArt.pdf)
 
 
