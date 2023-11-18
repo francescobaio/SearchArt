@@ -15,7 +15,7 @@ Additionally, the application includes a testing feature with a pre-loaded set o
 - **A pre-loaded image set** for immediate testing and exploration.
 - Developed using **basic but powerful web technologies**, ensuring broad accessibility and ease of use.
 
-<img src="https://github.com/francescobaio/SearchArt/blob/main/vision.png" style="width: 50%; height: 50%;">
+<img src="https://github.com/francescobaio/SearchArt/blob/main/vision.png" style="width: 70%; height: 70%;">
 
 
 ## Project Goals
