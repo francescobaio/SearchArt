@@ -7,12 +7,16 @@ At the core of SearchArt is the integration of a neural network using the YOLO (
 
 Additionally, the application includes a testing feature with a pre-loaded set of images already tagged with labels. This functionality enables users to experience and interact with the app, exploring its capabilities and the power of neural network-based image recognition in the context of art discovery.
 
+
 ## Key Features
 - **User-friendly interface** to upload custom datasets of images.
 - **Voice recognition capability** for intuitive user interaction.
 - **Neural network integration using YOLO** for accurate object detection within artworks.
 - **A pre-loaded image set** for immediate testing and exploration.
 - Developed using **basic but powerful web technologies**, ensuring broad accessibility and ease of use.
+
+![](https://github.com/francescobaio/SearchArt/blob/main/vision.png)
+
 
 ## Project Goals
 SearchArt is designed not only as a tool for art enthusiasts and researchers but also as an educational platform demonstrating the practical application of neural networks in recognizing and classifying elements within visual art. It stands as an example of the potential of combining traditional web development with advanced machine learning techniques to create novel and engaging user experiences.
